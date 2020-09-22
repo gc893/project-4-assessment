@@ -10,7 +10,7 @@ const Circle = (props) => {
             height='100'
             className={props.circleIdx === idx ? 'selected' : ''}
             onClick={() => props.handleClick(idx)}>
-                {idx}
+                {idx +1}
             </div>
         ))}
     </div> 
